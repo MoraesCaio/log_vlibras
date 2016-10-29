@@ -18,10 +18,14 @@ $RECYCLE.BIN/
 *.lnk
 
 # pastas a serem ignoradas
-Verificador\ de\ Requisitos\ do\ VLibras/*/
+Verificador\ de\ Requisitos\ do\ VLibras/*/**/*.*
 
 # excecoes, adicionar: !foo/
-!Verificador\ de\ Requisitos\ do\ VLibras/Properties/
+# pastas com espaco: !f\ o\ o/
+# (equivale a: f o o/)
+!Verificador\ de\ Requisitos\ do\ VLibras/bin/Debug/*.py
+!Verificador\ de\ Requisitos\ do\ VLibras/Properties/*.*
+
 
 
 # =========================
